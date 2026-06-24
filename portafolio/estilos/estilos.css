@@ -1,0 +1,84 @@
+header .tarjeta{
+width: 100%;
+max-width: 00px;
+background: black;
+border-radius: 8px;
+overflow: hidden;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 1.0);
+margin: 0 auto;
+}
+
+
+header .contenido{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+    padding: 0 40px  25px;
+    position: relative;
+}
+
+
+.avatar{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	border: 5px  solid black;
+	object-fit: cover;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
+
+main .texto{
+	text-align: center;
+}
+
+
+main .galeria .foto{
+	width: 300px;
+	height: 300px;
+	background: black;
+	margin: 15px;
+}
+
+
+
+
+main .foto img{
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+
+main .galeria{
+	padding: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+
+footer{
+	padding: 35px;
+	text-align: center;	
+}
+
+footer .rs{
+	color: #dee2e6;
+	text-decoration: none;
+	font-size: 25px;
+	margin: 10px 15px;
+	display: inline-block;	
+}
+
+footer .rs:hover{
+	color: black;
+	font-size: 30px;
+	transition: 0.5s;
+}
+
+
+body{
+	background: lightpink;
+}

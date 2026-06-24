@@ -1,0 +1,13 @@
+body{
+	background: url("../img/fondo.png");
+}
+
+div {
+	background: white;
+	width: 70%;
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 20px;
+border: 1px solid gray;
+
+}
